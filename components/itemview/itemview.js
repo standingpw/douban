@@ -1,20 +1,12 @@
-// indexmodule/indexmodule.js
+// components/itemview/itemview.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    title:{
-      type:String,
-      value:""
-    },
-    moreurl:{
-      type:String,
-      value:""
-    },
-    items:{
-      type:Array,
-      value:[]
+    item:{
+      type:Object,
+      value:{}
     }
   },
 

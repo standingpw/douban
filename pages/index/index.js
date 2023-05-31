@@ -17,7 +17,9 @@ Page({
         that.setData({
           movies:movies
         });
+        console.log(movies);
       }
+     
     });
     //电视剧
     network.getTVList({
